@@ -38,8 +38,6 @@ body{
     cursor:pointer;
     font-size:18px;
     font-weight:bold;
-
-    width:80%;
 }
 
 .card:hover{
