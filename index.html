@@ -61,24 +61,29 @@ body{
     display:flex;
     justify-content:space-between;
     align-items:center;
-    height:40px;
-    padding-left:45px;
+    height:38px;
+    padding-left:44px;
+    padding-right:14px;
 }
 
+/* Linia nad kółkiem */
 .stop::before{
     content:"";
     position:absolute;
     left:24px;
+    transform:translateX(-50%);
     top:0;
     height:50%;
     width:3px;
     background:#d32f2f;
 }
 
+/* Linia pod kółkiem */
 .stop::after{
     content:"";
     position:absolute;
     left:24px;
+    transform:translateX(-50%);
     top:50%;
     bottom:0;
     width:3px;
@@ -101,17 +106,27 @@ body{
     width:18px;
     height:18px;
     border-radius:50%;
-    background:white;
+    background:#fff;
     border:3px solid #d32f2f;
+    z-index:2;
 }
 
 .name{
+    flex:1;
     color:#2e7d32;
+    font-size:15px;
     font-weight:bold;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
 }
 
 .time{
+    width:55px;
+    text-align:right;
     color:#666;
+    font-size:15px;
+    font-weight:bold;
 }
 
 </style>
