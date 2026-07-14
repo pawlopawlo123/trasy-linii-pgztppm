@@ -1,6 +1,6 @@
 const linie = {
 
-P01:{
+P01 Linia Powiatowa:{
 
     "Cisówka - Pętla":[
         {n:"Mińsk Mazowiecki /Dw. PKP/ 02"},
