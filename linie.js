@@ -209,7 +209,6 @@ P03:{
       {n:"Jeździecka 02"},
       {n:"Okuniew 02"},
       {n:"Okuniew 01"}
-      
   ]
 
 },
