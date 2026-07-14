@@ -1,6 +1,6 @@
 const linie = {
 
-P01 Linia Powiatowa:{
+P01:{
 
     "Cisówka - Pętla":[
         {n:"Mińsk Mazowiecki /Dw. PKP/ 02"},
@@ -34,10 +34,34 @@ P01 Linia Powiatowa:{
     ],
 
     "Mińsk Mazowiecki /Dw. PKP/":[
-        {n:"Dworzec"},
-        {n:"Kościół"},
-        {n:"Rynek"}
-    ]
+        {n:"Cisówka - Pętla 01"},
+        {n:"Cisówka 01"},
+        {n:"Pustelnik-Kościół 01"},
+        {n:"Szkolna (Pustelnik) 01"},
+        {n:"Południowa (Pustelnik)"},
+        {n:"Walercin kapliczka 01"},
+        {n:"Walercin Stary 01"},
+        {n:"Gorzanka 01"},
+        {n:"Gorzanka przejazd kolejowy 01"},
+        {n:"Gorzanka mostek 01"},
+        {n:"Wspólna (Cyganka) 01"},
+        {n:"Wybranieckich 01"},
+        {n:"Mińska (Żuków) 01"},
+        {n:"Kościelna (Żuków) 01"},
+        {n:"Długa (Brzóze) 01"},
+        {n:"Strażacka (Brzóze) 01"},
+        {n:"Wspólna 01"},
+        {n:"Arynów 03"},
+        {n:"Kościelna (Królewiec) 01"},
+        {n:"Urocza 01"},
+        {n:"Krasickiego 02"},
+        {n:"Leśna (Mińsk Mazowiecki) 03"},
+        {n:"Boczna 07"},
+        {n:"11 Listopada 01"},
+        {n:"Kościuszki 02"},
+        {n:"Kazikowskiego 02"},
+        {n:"Mińsk Mazowiecki /Dw. PKP/ 02"}
+  ]
 
 },
 
