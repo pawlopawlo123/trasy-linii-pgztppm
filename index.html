@@ -1,257 +1,31 @@
 <!DOCTYPE html>
 <html lang="pl">
+
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>MPK Demo</title>
+<title>Trasy linii</title>
 
-<style>
+<link rel="stylesheet" href="style.css">
 
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:Arial,Helvetica,sans-serif;
-}
-
-body{
-    background:#f2f2f2;
-}
-
-.header{
-    background:#1976d2;
-    color:white;
-    padding:16px;
-    font-size:22px;
-    font-weight:bold;
-}
-
-#content{
-    padding:15px;
-}
-
-.card{
-    background:white;
-    padding:18px;
-    margin-bottom:12px;
-    border-radius:12px;
-    box-shadow:0 2px 6px rgba(0,0,0,.15);
-    cursor:pointer;
-    font-size:18px;
-}
-
-.card:hover{
-    background:#eeeeee;
-}
-
-.back{
-    margin-bottom:15px;
-    color:#1976d2;
-    cursor:pointer;
-    font-weight:bold;
-}
-
-.route{
-    margin-top:10px;
-}
-
-.stop{
-    position:relative;
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    height:38px;
-    padding-left:44px;
-    padding-right:14px;
-}
-
-/* Linia nad kółkiem */
-.stop::before{
-    content:"";
-    position:absolute;
-    left:24px;
-    transform:translateX(-50%);
-    top:0;
-    height:50%;
-    width:3px;
-    background:#d32f2f;
-}
-
-/* Linia pod kółkiem */
-.stop::after{
-    content:"";
-    position:absolute;
-    left:24px;
-    transform:translateX(-50%);
-    top:50%;
-    bottom:0;
-    width:3px;
-    background:#d32f2f;
-}
-
-.stop:first-child::before{
-    display:none;
-}
-
-.stop:last-child::after{
-    display:none;
-}
-
-.circle{
-    position:absolute;
-    left:24px;
-    top:50%;
-    transform:translate(-50%,-50%);
-    width:18px;
-    height:18px;
-    border-radius:50%;
-    background:#fff;
-    border:3px solid #d32f2f;
-    z-index:2;
-}
-
-.name{
-    flex:1;
-    color:#2e7d32;
-    font-size:15px;
-    font-weight:bold;
-    white-space:nowrap;
-    overflow:hidden;
-    text-overflow:ellipsis;
-}
-
-.time{
-    width:55px;
-    text-align:right;
-    color:#666;
-    font-size:15px;
-    font-weight:bold;
-}
-
-</style>
 </head>
 
 <body>
 
-<div class="header" id="title">
+<div class="header" id="header">
 Menu
 </div>
 
-<div id="content"></div>
 
-<script>
-
-const content=document.getElementById("content");
-const title=document.getElementById("title");
-
-menu();
-
-function menu(){
-
-title.innerHTML="Menu";
-
-content.innerHTML=`
-
-<div class="card" onclick="linie()">
-🚌 Trasy linii
-</div>
-
-`;
-
-}
-
-function linie(){
-
-title.innerHTML="Trasy linii";
-
-content.innerHTML=`
-
-<div class="back" onclick="menu()">← Powrót</div>
-
-<div class="card" onclick="kierunki('P01')">
-P01
-</div>
-
-<div class="card" onclick="kierunki('P02')">
-P02
-</div>
-
-<div class="card" onclick="kierunki('P03')">
-P03
-</div>
-
-`;
-
-}
-
-function kierunki(linia){
-
-title.innerHTML=linia;
-
-content.innerHTML=`
-
-<div class="back" onclick="linie()">← Powrót</div>
-
-<div class="card" onclick="trasa('${linia}','Rynek (Stanisławów)')">
-Rynek (Stanisławów)
-</div>
-
-<div class="card" onclick="trasa('${linia}','Okuniew')">
-Okuniew
-</div>
-
-`;
-
-}
-
-function trasa(linia,kierunek){
-
-title.innerHTML=linia+" → "+kierunek;
-
-content.innerHTML=`
-
-<div class="back" onclick="kierunki('${linia}')">← Powrót</div>
-
-<div class="route">
-
-<div class="stop">
-<div class="circle"></div>
-<div class="name">Okuniew 01</div>
-<div class="time">04:52</div>
-</div>
-
-<div class="stop">
-<div class="circle"></div>
-<div class="name">Jeździecka 01</div>
-<div class="time">04:54</div>
-</div>
-
-<div class="stop">
-<div class="circle"></div>
-<div class="name">Szosowa 01</div>
-<div class="time">04:56</div>
-</div>
-
-<div class="stop">
-<div class="circle"></div>
-<div class="name">Łukasińskiego 01</div>
-<div class="time">04:57</div>
-</div>
-
-<div class="stop">
-<div class="circle"></div>
-<div class="name">Rynek (Stanisławów)</div>
-<div class="time">05:32</div>
-</div>
+<div id="content">
 
 </div>
 
-`;
 
-}
-
-</script>
+<script src="linie.js"></script>
 
 </body>
+
 </html>
