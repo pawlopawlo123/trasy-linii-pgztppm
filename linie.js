@@ -5,8 +5,8 @@ P01:{
     "Cisówka - Pętla":[
         {n:"Mińsk Mazowiecki /Dw. PKP/ 02"},
         {n:"Rondo Bitwy Warszawskiej 1920r. 01"},
-        {n:"Kazikowskiego 03"}
-        {n:"Urząd Miasta 03"}
+        {n:"Kazikowskiego 03"},
+        {n:"Urząd Miasta 03"},
         {n:"11 Listopada 02"}
     ],
 
@@ -43,9 +43,9 @@ P03:{
 ],
 
   "Okuniew":[
-    {n:"Michałów - Pętla"},
+    {n:"Michałów - Pętla"}
   ]
 
-},
+}
 
 };
