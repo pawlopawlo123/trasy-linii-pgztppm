@@ -38,7 +38,7 @@ P01:{
         {n:"Cisówka 01"},
         {n:"Pustelnik-Kościół 01"},
         {n:"Szkolna (Pustelnik) 01"},
-        {n:"Południowa (Pustelnik)"},
+        {n:"Południowa (Pustelnik) 01"},
         {n:"Walercin kapliczka 01"},
         {n:"Walercin Stary 01"},
         {n:"Gorzanka 01"},
