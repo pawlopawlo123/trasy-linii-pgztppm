@@ -285,7 +285,7 @@ P04:{
         {n:"11 Listopada 01"},
         {n:"Kościuszki 02"},
         {n:"Kazikowskiego 02"},
-        {n:"Mińsk Mazowiecki /Dw. PKP/ 08
+        {n:"Mińsk Mazowiecki /Dw. PKP/ 08"}
         ]
 },
 
