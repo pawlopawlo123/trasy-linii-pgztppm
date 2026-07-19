@@ -2,7 +2,7 @@ const linie = {
 
 P01:{
 
-    "Cisówka - Pętla":[
+    "kier. Cisówka - Pętla":[
         {n:"Mińsk Mazowiecki /Dw. PKP/ 02"},
         {n:"Rondo Bitwy Warszawskiej 1920r. 01"},
         {n:"Kazikowskiego 03"},
@@ -33,7 +33,7 @@ P01:{
         {n:"Cisówka - Pętla 01"}
     ],
 
-    "Mińsk Mazowiecki /Dw. PKP/":[
+    "kier. Mińsk Mazowiecki /Dw. PKP/":[
         {n:"Cisówka - Pętla 01"},
         {n:"Cisówka 01"},
         {n:"Pustelnik-Kościół 01"},
@@ -67,7 +67,7 @@ P01:{
 
 P02:{
 
-    "Rynek (Stanisławów)":[
+    "kier. Rynek (Stanisławów)":[
         {n:"Okuniew 01"},
         {n:"Jeździecka 01"},
         {n:"Szosowa 01"},
@@ -102,7 +102,7 @@ P02:{
         {n:"Rynek (Stanisławów) 01"}
     ],
 
-    "Okuniew":[
+    "kier. Okuniew":[
         {n:"Rynek (Stanisławów) 01"},
         {n:"Mały Stanisławów 01"},
         {n:"Zalesie 01"},
@@ -142,7 +142,7 @@ P02:{
 
 P03:{
 
-  "Michałów - Pętla":[
+  "kier. Michałów - Pętla":[
       {n:"Okuniew 01"},
       {n:"Jeździecka 01"},
       {n:"Szosowa 01"},
@@ -176,7 +176,7 @@ P03:{
       {n:"Michałów - Pętla 01"}
 ],
 
-  "Okuniew":[
+  "kier. Okuniew":[
       {n:"Michałów - Pętla 01"},
       {n:"Kąty Goździejewskie Drugie 03"},
       {n:"Fabryka Mebli 01"},
@@ -215,7 +215,7 @@ P03:{
 
 P04:{
 
-    "Wólka Piecząca":[
+    " kier. Wólka Piecząca":[
         {n:"Mińsk Mazowiecki /Dw. PKP/ 08"},
         {n:"Rondo Bitwy Warszawskiej 1920r. 01"},
         {n:"Kazikowskiego 03"},
@@ -252,7 +252,7 @@ P04:{
         {n:"Wólka Piecząca 01*"}
         ],
 
-    "Mińsk Mazowiecki /Dw. PKP/":[
+    "kier. Mińsk Mazowiecki /Dw. PKP/":[
         {n:"Wólka Piecząca 01*"},
         {n:"Wólka Piecząca II 01*"},
         {n:"Wólka Piecząca III 01*"},
