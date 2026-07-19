@@ -215,7 +215,7 @@ P03:{
 
 P04:{
 
-    " kier. Wólka Piecząca":[
+    "kier. Wólka Piecząca":[
         {n:"Mińsk Mazowiecki /Dw. PKP/ 08"},
         {n:"Rondo Bitwy Warszawskiej 1920r. 01"},
         {n:"Kazikowskiego 03"},
@@ -288,6 +288,56 @@ P04:{
         {n:"Mińsk Mazowiecki /Dw. PKP/ 08"}
         ]
 },
+
+    P05:{
+
+        "kier. Grzebowilk OSP":[
+            {n:"Mińsk Mazowiecki /Dw. PKP/ 08"},
+            {n:"Rondo Bitwy Warszawskiej 1920r. 01"},
+            {n:"Kazikowskiego 03"},
+            {n:"Przedszkole Miejskie nr 5 02"},
+            {n:"Mireckiego 01"},
+            {n:"Górki 01"},
+            {n:"Szkoła Podstawowa nr 6 02"},
+            {n:"Os. Zielony Zakątek 02"},
+            {n:"Zaciszna 02"},
+            {n:"Leśna (Gliniak) 02"},
+            {n:"Cielechowizna 02"},
+            {n:"Długa (Huta Mińska) 02"},
+            {n:"Wczasowa 02"},
+            {n:"Mikanów 02"},
+            {n:"Nowa Pogorzel 02"},
+            {n:"Wiśniówka 02"},
+            {n:"Grabina 02"},
+            {n:"Iłówiec 02"},
+            {n:"Wólka Iłówiecka 02"},
+            {n:"Grzebowilk II 02"},
+            {n:"Grzebowilk OSP 01"}
+            ],
+
+        "kier. Mińsk Mazowiecki /Dw. PKP/":[
+            {n:"Grzebowilk OSP 01"},
+            {n:"Grzebowilk II 01"},
+            {n:"Wólka Iłówiecka 01"},
+            {n:"Iłówiec 01"},
+            {n:"Grabina 01"},
+            {n:"Wiśniówka 01"},
+            {n:"Nowa Pogorzel 01"},
+            {n:"Mikanów 01"},
+            {n:"Wczasowa 01"},
+            {n:"Długa (Huta Mińska) 01"},
+            {n:"Cielechowizna 01"},
+            {n:"Leśna (Gliniak) 01"},
+            {n:"Zaciszna 01"},
+            {n:"Os. Zielony Zakątek 01"},
+            {n:"Szkoła Podstawowa nr 6 20"},
+            {n:"Mireckiego 02"},
+            {n:"Przedszkole Miejskie nr 5 01"},
+            {n:"Kazikowskiego 02"},
+            {n:"Mińsk Mazowiecki /Dw. PKP/ 08"}
+            ]
+
+    },
 
 };
 
